@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+ }
+ body {
+    background-color: bisque;
+ }
+ 
+ html {
+    font-family: "Roboto", sans-serif;
+ }
+ 
+ .container {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1368px;
+    padding: 0 152px;
+ }
+ 
+ .wrapper {
+  text-align: center;
+ }
+ 
+ .lab-wrapper {
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+ 
+ }
+ 
+ .lab-wrapper * {
+    pointer-events: none;
+ }
+ .box {
+    min-width: 160px;
+    display: none;
+ }
+ .box a {
+    padding: 8px 0;
+ }
+ .box.show {
+    display: block;
+ }
+ 
+ .box a {
+    display: block;
+ }
+ 
+ @media screen and (max-width:1023px) {
+    .container {
+       padding: unset;
+       padding: 0 12px;
+    }
+    .lab-wrapper {
+       width: 100%;
+    }
+ }
+ 
+ 
